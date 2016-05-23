@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kr.hs.emirim.ycy6685.scrollviewtest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"><!--넓이 높이 스크롤뷰와 똑같이-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/but_01"
+            android:background="#ffe5ed"
+            android:textColor="#000000"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/but_02"
+            android:background="#e3f2ff"
+            android:textColor="#000000"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/but_03"
+            android:background="#ffe5ed"
+            android:textColor="#000000"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/but_04"
+            android:background="#e3f2ff"
+            android:textColor="#000000"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/but_05"
+            android:background="#ffe5ed"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+</ScrollView>
